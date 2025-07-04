@@ -35,7 +35,7 @@ class Settings(BaseSettings):
 
     FULL_LOGS: bool = True
 
-    REDIS_HOST: str | None = "localhost"
+    REDIS_HOST: str | None = "redis"
     REDIS_PORT: int | None = 6379
 
     class Config:
